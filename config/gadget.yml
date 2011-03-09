@@ -1,0 +1,13 @@
+kakiageMemberImageBox:
+  caption:
+    ja_JP: "kakiageMemberImageBox"
+  description:
+    ja_JP: "kakiageMemberImageBox"
+  component: [kakiage, memberImageBox]
+
+kakiageMemberList:
+  caption:
+    ja_JP: "kakiageMemberList"
+  description:
+    ja_JP: "kakiageMemberList"
+  component: [kakiage, memberList]
