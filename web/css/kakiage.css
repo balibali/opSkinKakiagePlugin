@@ -1,0 +1,93 @@
+#Container #Header {
+  background: #111;
+  background: -webkit-gradient(linear, left top, left bottom, from(#333), to(#111));
+  background: -moz-linear-gradient(top, #333, #111);
+  color: #ccc;
+}
+#HeaderContainer #globalNav {
+  padding-top: 0;
+}
+#HeaderContainer #globalNav li {
+  border-left-color: #222;
+  border-right: none;
+}
+#HeaderContainer h1 {
+  display: none;
+}
+#HeaderContainer #globalNav li a {
+  height: 2em;
+  line-height: 2em;
+}
+#topBanner {
+  display: none;
+}
+#localNav {
+  display: none;
+}
+
+#ContentsContainer {
+  margin-top: 10px;
+  padding-top: 10px;
+  background-color: #fff;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+}
+
+#LayoutA, #LayoutB, #LayoutC, #sideBanner {
+  background-color: #fff;
+}
+
+#LayoutA, #LayoutB {
+  padding-left: 10px;
+}
+#sideBanner {
+  width: 210px;
+  padding-right: 10px;
+}
+
+#ContentsContainer #LayoutC {
+  width: 950px;
+}
+#ContentsContainer #LayoutC #Center {
+  width: 930px;
+  margin: 0 auto;
+}
+
+#Container #Contents #ContentsContainer div.partsHeading {
+  background: none;
+  color: #000;
+  height: auto;
+  line-height: 1.5em;
+  border-bottom: dotted 1px #000;
+  margin-bottom: 10px;
+}
+
+#Footer {
+  display: none;
+}
+
+#kakiage_member_list {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#kakiage_member_list table {
+  margin: 0 auto;
+}
+#kakiage_member_list td {
+  width: 38px;
+  height: 38px;
+  text-align: center;
+}
+
+#Center #kakiages .kakiage {
+  height: 400px;
+}
+
+#kakiageForm th {
+  display: none;
+}
+#kakiageForm td textarea {
+  height: 400px;
+}

@@ -10,30 +10,6 @@
 <link rel="stylesheet" href="<?php echo url_for('@customizing_css') ?>">
 <?php endif; ?>
 <?php echo $op_config->get('pc_html_head') ?>
-<style>
-#Container #Header {
-  background-position: left bottom;
-}
-#Container #Header h1 {
-  display: none;
-}
-#Container #Header #globalNav {
-  padding-top: 0;
-}
-
-#kakiage_member_list {
-  width: 100%;
-  margin-bottom: 10px;
-}
-#kakiage_member_list table {
-  margin: 0 auto;
-}
-#kakiage_member_list td {
-  width: 38px;
-  height: 38px;
-  text-align: center;
-}
-</style>
 </head>
 <body id="<?php printf('page_%s_%s', $view->getModuleName(), $view->getActionName()) ?>" class="<?php echo opToolkit::isSecurePage() ? 'secure_page' : 'insecure_page' ?>">
 <?php echo $op_config->get('pc_html_top2') ?>

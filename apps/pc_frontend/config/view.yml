@@ -1,2 +1,2 @@
 default:
-  stylesheets:    [/opSkinKakiagePlugin/css/main.css]
+  stylesheets:    [/opSkinKakiagePlugin/css/main.css, /opSkinKakiagePlugin/css/kakiage.css]
